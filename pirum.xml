@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<server>
+<name>ddefig.github.com/pear</name>
+<summary>ddefig's PEAR Channel Server</summary>
+<alias>ddefig</alias>
+<url>http://ddefig.github.com/pear</url>
+</server>
