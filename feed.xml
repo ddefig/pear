@@ -1,12 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://ddefig.github.com/pear</id>
-    <updated>2014-07-29T14:57:32-07:00</updated>
+    <updated>2014-07-31T14:32:31-07:00</updated>
     <title>ddefig's PEAR Channel Server Latest Releases</title>
     <link href="http://ddefig.github.com/pear/feed.xml" rel="self" />
     <author>
         <name>http://ddefig.github.com/pear</name>
     </author>
 
-
+    <entry>
+        <title>SeedDMS_Core 4.3.8 (stable)</title>
+        <link href="http://ddefig.github.com/pear/get/SeedDMS_Core-4.3.8.tgz" />
+        <id>http://ddefig.github.com/pear/get/SeedDMS_Core-4.3.8.tgz</id>
+        <author>
+            <name>steinm</name>
+        </author>
+        <updated>2014-07-31T21:25:14-07:00</updated>
+        <content>
+            SeedDMS is a web based document management system (DMS). This is
+ the core of it, providing the basic functionality to create/update and delete
+ folders and documents. It also contains a user and group managment
+            
+- new method SeedDMS_Core_DMS::getStatisticalData()
+ 
+        </content>
+    </entry>    <entry>
+        <title>SeedDMS_Lucene 1.1.4 (stable)</title>
+        <link href="http://ddefig.github.com/pear/get/SeedDMS_Lucene-1.1.4.tgz" />
+        <id>http://ddefig.github.com/pear/get/SeedDMS_Lucene-1.1.4.tgz</id>
+        <author>
+            <name>steinm</name>
+        </author>
+        <updated>2014-07-31T21:19:52-07:00</updated>
+        <content>
+            SeedDMS is a web based document management system (DMS). This is
+ the fulltext search engine for it, based on Lucene.
+            
+class SeedDMS_Lucene_Search::search returns false if query is invalid instead of an empty result record
+ 
+        </content>
+    </entry>    <entry>
+        <title>SeedDMS_Preview 1.1.2 (stable)</title>
+        <link href="http://ddefig.github.com/pear/get/SeedDMS_Preview-1.1.2.tgz" />
+        <id>http://ddefig.github.com/pear/get/SeedDMS_Preview-1.1.2.tgz</id>
+        <author>
+            <name>steinm</name>
+        </author>
+        <updated>2014-07-31T21:28:33-07:00</updated>
+        <content>
+            SeedDMS is a web based document management system (DMS). These
+ are the classes to create preview images from the document content.
+            
+create fixed width image with proportional height
+ 
+        </content>
+    </entry>
 </feed>

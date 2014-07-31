@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<p xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd">
+<n>SeedDMS_Lucene</n>
+<c>ddefig.github.com/pear</c>
+<ca xlink:href="/rest/c/Default">Default</ca>
+<l>GPL License</l>
+<s>Fulltext search for SeedDMS</s>
+<d>SeedDMS is a web based document management system (DMS). This is
+ the fulltext search engine for it, based on Lucene.</d>
+<r xlink:href="/rest/r/seeddms_lucene" />
+</p>

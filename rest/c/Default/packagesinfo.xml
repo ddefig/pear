@@ -1,4 +1,80 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <f xmlns="http://pear.php.net/dtd/rest.categorypackageinfo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.categorypackageinfo     http://pear.php.net/dtd/rest.categorypackageinfo.xsd">
+    <pi>
+        <p>
+            <n>SeedDMS_Core</n>
+            <c>ddefig.github.com/pear</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>GPL License</l>
+            <s>Document management system</s>
+            <d>SeedDMS is a web based document management system (DMS). This is
+ the core of it, providing the basic functionality to create/update and delete
+ folders and documents. It also contains a user and group managment</d>
+            <r xlink:href="/rest/r/seeddms_core" />
+        </p>
 
+        <a>
+            <r>
+                <v>4.3.8</v>
+                <s>stable</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>4.3.8</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.5.4";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>SeedDMS_Lucene</n>
+            <c>ddefig.github.com/pear</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>GPL License</l>
+            <s>Fulltext search for SeedDMS</s>
+            <d>SeedDMS is a web based document management system (DMS). This is
+ the fulltext search engine for it, based on Lucene.</d>
+            <r xlink:href="/rest/r/seeddms_lucene" />
+        </p>
+
+        <a>
+            <r>
+                <v>1.1.4</v>
+                <s>stable</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>1.1.4</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.5.4";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>SeedDMS_Preview</n>
+            <c>ddefig.github.com/pear</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>GPL License</l>
+            <s>Create thumbnails from document content for SeedDMS</s>
+            <d>SeedDMS is a web based document management system (DMS). These
+ are the classes to create preview images from the document content.</d>
+            <r xlink:href="/rest/r/seeddms_preview" />
+        </p>
+
+        <a>
+            <r>
+                <v>1.1.2</v>
+                <s>stable</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>1.1.2</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.5.4";}}}</d>
+        </deps>
+
+    </pi>
 </f>

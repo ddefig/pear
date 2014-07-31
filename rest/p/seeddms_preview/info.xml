@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<p xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd">
+<n>SeedDMS_Preview</n>
+<c>ddefig.github.com/pear</c>
+<ca xlink:href="/rest/c/Default">Default</ca>
+<l>GPL License</l>
+<s>Create thumbnails from document content for SeedDMS</s>
+<d>SeedDMS is a web based document management system (DMS). These
+ are the classes to create preview images from the document content.</d>
+<r xlink:href="/rest/r/seeddms_preview" />
+</p>

@@ -1,3 +1,119 @@
-[
-
-]
+{
+    "pear-ddefig\/SeedDMS_Core": {
+        "versions": {
+            "4.3.8": {
+                "name": "pear-ddefig\/SeedDMS_Core",
+                "description": "Document management system",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/ddefig.github.com\/pear\/get\/SeedDMS_Core-4.3.8.tgz"
+                },
+                "version": "4.3.8",
+                "time": "2014-07-31T21:25:14-07:00",
+                "require": {
+                    "php": ">=4.3.0"
+                },
+                "authors": [
+                    {
+                        "name": "Uwe Steinmann",
+                        "email": "uwe@steinmann.cx",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": {
+                        "0": "Core",
+                        "16": "Core.php"
+                    }
+                }
+            }
+        },
+        "name": "pear-ddefig\/SeedDMS_Core",
+        "description": "Document management system",
+        "maintainers": [
+            {
+                "name": "Uwe Steinmann",
+                "email": "uwe@steinmann.cx",
+                "homepage": ""
+            }
+        ]
+    },
+    "pear-ddefig\/SeedDMS_Lucene": {
+        "versions": {
+            "1.1.4": {
+                "name": "pear-ddefig\/SeedDMS_Lucene",
+                "description": "Fulltext search for SeedDMS",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/ddefig.github.com\/pear\/get\/SeedDMS_Lucene-1.1.4.tgz"
+                },
+                "version": "1.1.4",
+                "time": "2014-07-31T21:19:52-07:00",
+                "require": {
+                    "php": ">=4.3.0"
+                },
+                "authors": [
+                    {
+                        "name": "Uwe Steinmann",
+                        "email": "uwe@steinmann.cx",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": {
+                        "0": "Lucene",
+                        "3": "Lucene.php"
+                    }
+                }
+            }
+        },
+        "name": "pear-ddefig\/SeedDMS_Lucene",
+        "description": "Fulltext search for SeedDMS",
+        "maintainers": [
+            {
+                "name": "Uwe Steinmann",
+                "email": "uwe@steinmann.cx",
+                "homepage": ""
+            }
+        ]
+    },
+    "pear-ddefig\/SeedDMS_Preview": {
+        "versions": {
+            "1.1.2": {
+                "name": "pear-ddefig\/SeedDMS_Preview",
+                "description": "Create thumbnails from document content for SeedDMS",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/ddefig.github.com\/pear\/get\/SeedDMS_Preview-1.1.2.tgz"
+                },
+                "version": "1.1.2",
+                "time": "2014-07-31T21:28:33-07:00",
+                "require": {
+                    "php": ">=4.3.0"
+                },
+                "authors": [
+                    {
+                        "name": "Uwe Steinmann",
+                        "email": "uwe@steinmann.cx",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "Preview\/Previewer.php",
+                        "Preview.php"
+                    ]
+                }
+            }
+        },
+        "name": "pear-ddefig\/SeedDMS_Preview",
+        "description": "Create thumbnails from document content for SeedDMS",
+        "maintainers": [
+            {
+                "name": "Uwe Steinmann",
+                "email": "uwe@steinmann.cx",
+                "homepage": ""
+            }
+        ]
+    }
+}

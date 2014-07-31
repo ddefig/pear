@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<p xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd">
+<n>SeedDMS_Core</n>
+<c>ddefig.github.com/pear</c>
+<ca xlink:href="/rest/c/Default">Default</ca>
+<l>GPL License</l>
+<s>Document management system</s>
+<d>SeedDMS is a web based document management system (DMS). This is
+ the core of it, providing the basic functionality to create/update and delete
+ folders and documents. It also contains a user and group managment</d>
+<r xlink:href="/rest/r/seeddms_core" />
+</p>
